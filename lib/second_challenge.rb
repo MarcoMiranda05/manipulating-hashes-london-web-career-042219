@@ -6,9 +6,8 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-binding.pry  #code your solution here!
-
-groceries.values
+  new_array = groceries.values
+  new_array.flatten
 
 
 
